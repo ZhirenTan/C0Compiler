@@ -1,0 +1,25 @@
+
+
+		func	,void	,  	,kid
+		para	,int	,  	,i
+		==	,i	,1	,  
+		jne	,  	,  	,_LABEL_0
+		+	,i	,1	,$_0
+		=	,$_0	,  	,i
+		jmp	,  	,  	,_LABEL_1
+		lab:	,  	,  	,_LABEL_0
+		lab:	,  	,  	,_LABEL_1
+		end	,  	,  	,kid
+
+
+		func	,  	,  	,main
+		int	,  	,  	,i
+		=	,0	,  	,i
+		==	,i	,0	,  
+		jne	,  	,  	,_LABEL_2
+		fupa	,  	,  	,i
+		call	,kid	,  	,  
+		jmp	,  	,  	,_LABEL_3
+		lab:	,  	,  	,_LABEL_2
+		lab:	,  	,  	,_LABEL_3
+		end	,  	,  	,main
